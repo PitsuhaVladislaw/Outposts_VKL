@@ -6,7 +6,7 @@
 
 .img_2 {
     padding: 2px;
-    height: 150px;
+    height: 146px;
     width: 150px;
     border-radius: 50px;
     border: 5px solid black;
@@ -20,8 +20,8 @@
 .img_3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    border: 5px double red;
-    width: 270px;
+    border: 5px double rgb(0, 0, 0);
+    width: 260px;
     height: 330px;
     border-radius: 40%;
     margin: 1%;
@@ -36,11 +36,12 @@
 }
 
 .text_2 {
-    margin-top: 1%;
     border: 5px double black;
     border-radius: 40px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.199);
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    background-color: rgba(172, 23, 23, 0.699);
     text-indent: 50px;
     text-align: justify;
     display: inline-block;
@@ -49,6 +50,24 @@
 
 .picture {
     float: right;
+    margin-top: 0.4%;
+}
+
+.h_4 {
+    font-size: 40px;
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(253, 253, 253), 0 0 0.1em rgb(255, 255, 255);
+    ;
+}
+
+.p_1 {
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    font-style: oblique;
+    font-family: fantasy;
+    text-shadow: 1px 1px 2px rgb(230, 224, 224);
 }
 
 .p_2 {
@@ -56,4 +75,27 @@
     font-size: 14.7px;
     font-family: Comic Sans MS;
     font-weight: bolder;
+}
+
+.glav {
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+    padding: 0px 170px 0px 120px;
+}
+
+.block {
+    background-color: rgba(126, 16, 16, 0.836);
+    margin-bottom: 5px;
+    border-bottom: 5px solid rgb(223, 13, 13);
+    border-top: 5px solid rgb(223, 13, 13);
+}
+
+.article_1 {
+    border: 7px ridge red;
+    margin: 50px 0px;
+    background-color: rgba(247, 9, 9, 0.425);
+    padding: 20px 0px;
 }
