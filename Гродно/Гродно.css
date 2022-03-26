@@ -19,9 +19,9 @@
 
 .img_3 {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border: 5px double rgb(0, 0, 0);
-    width: 260px;
+    width: 250px;
     height: 330px;
     border-radius: 40%;
     margin: 1%;
@@ -31,7 +31,7 @@
 .table_2 {
     border: 4px ridge black;
     border-radius: 50px;
-    padding: 10px;
+    padding: 5px;
     background-image: url(https://content.onliner.by/news/2015/06/large/389550e8a7144ac49f5d1b6910915876_1434120230.jpg);
 }
 
@@ -41,6 +41,7 @@
     padding: 20px;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+    margin-left: 0.7%;
     background-color: rgba(185, 124, 124, 0.699);
     text-indent: 50px;
     text-align: justify;
@@ -51,10 +52,11 @@
 .picture {
     float: right;
     margin-top: 0.4%;
+    margin-right: 0.5%;
 }
 
 .h_4 {
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(15, 15, 15);
     font-weight: bolder;
     font-family: sans-serif;
@@ -87,15 +89,50 @@
 }
 
 .block {
-    background-color: rgba(126, 16, 16, 0.836);
+    background-color: rgba(126, 16, 16, 0.753);
     margin-bottom: 5px;
-    border-bottom: 5px solid rgb(223, 13, 13);
-    border-top: 5px solid rgb(223, 13, 13);
+    border: 5px solid rgb(223, 13, 13);
+    border-radius: 20%;
+    padding: 10px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    right: 5%;
 }
 
 .article_1 {
-    border: 7px ridge red;
+    border-top: 7px ridge red;
+    border-bottom: 7px ridge red;
     margin: 50px 0px;
     background-color: rgba(247, 9, 9, 0.425);
-    padding: 20px 0px;
+    padding: 20px 10px;
+    border-radius: 5%;
+}
+
+.cytata {
+    width: 35%;
+}
+
+.reesunok {
+    width: 450px;
+    height: 250px;
+}
+
+.chill {
+    display: inline-block;
+    position: relative;
+}
+
+.together {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    left: 25%;
+    right: 25%;
+    padding: 1%;
+}
+
+.chill_2 {
+    position: relative;
+    display: inline-block;
 }
